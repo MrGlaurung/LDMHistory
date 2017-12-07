@@ -1,3 +1,12 @@
 {# templates/History/main.html.twig #}
+{% extends 'base.html.twig' %}
 
-<h1>Your lucky number is {{ number }}</h1>
+{% block title %}LDM Raid history and search tool{% endblock %}
+
+{% block body %}
+    <h1>Your lucky number is {{ number }}</h1>
+    {#{% for entry in blog_entries %}#}
+        {#<h2>{{ entry.title }}</h2>#}
+        {#<p>{{ entry.body }}</p>#}
+    {#{% endfor %}#}
+{% endblock %}
